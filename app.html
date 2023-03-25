@@ -58,19 +58,20 @@
     <main class="flex-shrink-0">
        <div class="container col-xxl-8 px-4 py-5 mt-5">
            <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col-12 col-lg-4 border-1 border-bottom border-end">
+                <div class="col-12 col-lg-4 border-1 border-end">
                     <h1>CENTUM: A Coding Project</h1>
 
                     <!-- <h1 class="display-6 fw-bold lh-1 mb-3">CENTUM: A Coding Project</h1> -->
 
-                    <h4 class="lead">A JavaScript Coding exercise that usies loops to iterate from 0 to 100, display the numbers and <b>HIGHLIGHT/BOLD</b> even numbers in the range.</h4>
+                    <h4 class="lead">A JavaScript Coding exercise that usies loops to iterate within a range (0 to 100 by default), display the numbers and <b>HIGHLIGHT/BOLD</b> even numbers in the range.</h4>
 
                     <h2 class="mt-5 border-2 border-bottom">
                         Instructions
                     </h2>
                     <p>
-                        Enter a strating value and a ending value. Press the button to see Centum in action.
+                        Enter a starting value and an ending value. Press the button to see CENTUM in action.
                     </p>
+                    <div class="col-12 border-1 border-bottom"></div>
                 </div>
                 <div class="col-12 col-lg-8 mt-2">
                     <h5>Enter Values</h5>
@@ -168,6 +169,10 @@
     </script>
 
     <script src="js/site.js">
+    </script>
+
+    <script>
+        document.getElementById("btnSubmit").addEventListener("click", getValues);
     </script>
 </body>
 
